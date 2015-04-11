@@ -12,7 +12,7 @@ $ go install github.com/kellydunn/sfdc
 
 ## usage
 
-Currently, this library only has one command, `15to18` which converts a 15 character Salesforce ID to an 18 character Salesforce ID.  More on the difference [here](https://help.salesforce.com/apex/HTViewSolution?urlname=How-do-unique-IDs-work-in-Salesforce-1327108651310&). The alogrithm that creates these ids is based on 
+Currently, this library only has one command, `15to18` which converts a 15 character Salesforce ID to an 18 character Salesforce ID.  More on the difference [here](https://help.salesforce.com/apex/HTViewSolution?urlname=How-do-unique-IDs-work-in-Salesforce-1327108651310&). The alogrithm that creates these ids is based on [this](http://salesforce.stackexchange.com/questions/27686/how-can-i-convert-a-15-char-id-value-into-an-18-char-id-value) Stack Exchange conversation.
 
 ```bash
 $ sfdc 15to18 <salesforce_id>
